@@ -20,5 +20,6 @@ public class LegumeTest {
                 .then()
                 .assertThat()
                 .body("[1].name", equalTo("Zucchini"));
+
     }
 }
